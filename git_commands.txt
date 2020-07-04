@@ -22,3 +22,12 @@ git commands:
 		dir/:-  if we write this in the .gitignore file than it will ignore the directories also to commit in git, any type pf dir folder will be ignored weather it is inside the another folder does not matter  it is ignored
 		/dir/:- if we want just outer folder to get ignored and not all the folders in the git with same name
 				we can give any path of file or directory to ignore in gitignored
+	git diff :- if we add a file to a git so a file is in a staged state
+				no we change in the file
+				so if we do git status than that fie comes in both i.e staged state as well as modified state
+				and comapres modifies with staged
+	git diff --staged:
+				It compares last commit with present staged
+	git commit -a -m "direct commit" := if we want to ignore the staging state and commit directly
+										but the files which are present before will only be commited and the new files created will not be commited
+										for new files yo 1st need to add them to git
