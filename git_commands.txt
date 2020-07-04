@@ -1,0 +1,18 @@
+git commands:
+	pwd :-present working directory
+	cd:
+	make user in git : git config --global user.name "naman"
+	attach email:git config --global user.email "naman98.j@gmai.com"
+	git config --list
+	to see name and email	
+		git config user.name/email
+	git status: to check the status of git
+	git init :- to make the folder git repositories
+	git add --a :- means put all the files in staging area and comes to staging area
+	git status
+	git commit -m "message":- the snapshot of file will be created
+	git log: to see all the commits done
+	gi add first.txt :- to add only the single file in git
+	rm -rf .git :- to remove all the git repository
+	git clone : to fetch new dir from internet 
+	ls: contains the list in folder you are in

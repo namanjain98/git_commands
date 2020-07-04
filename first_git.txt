@@ -1,0 +1,28 @@
+git is a version control
+easily recover file
+rollback to previously working state
+git is a software
+github is a hosting service to host git repositories
+	gitlab
+	bitbucket
+
+Git featurea:
+	it capture snapshot
+		we can fetch any version from git from .git folder
+	also every operation is local
+	git has integrity
+	we can see the checksum of file to see the validity of file
+		if checksumof fle is changed means file is changed
+	git generally add the data
+after instaling git we get:
+	git command line tool
+	git bash
+	
+so first commit is done
+
+		
+Local operations:
+
+Working directory 			staging area								git directory
+							(the files that we go in next commit)       It contains all the files
+							
