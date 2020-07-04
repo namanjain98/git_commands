@@ -16,3 +16,9 @@ git commands:
 	rm -rf .git :- to remove all the git repository
 	git clone : to fetch new dir from internet 
 	ls: contains the list in folder you are in
+	touch abc.txt:- creates the file in the same directory
+	touch .gitignore:-   if we add any files in this file that it ignore all the files inside it and so we cannot see it in git status and it will not get commit
+		*.log:- if we write this inside the .gitignore file than it will ignore all the files having extension .log
+		dir/:-  if we write this in the .gitignore file than it will ignore the directories also to commit in git, any type pf dir folder will be ignored weather it is inside the another folder does not matter  it is ignored
+		/dir/:- if we want just outer folder to get ignored and not all the folders in the git with same name
+				we can give any path of file or directory to ignore in gitignored
