@@ -69,3 +69,4 @@ git commands:
 	
 Create branching in github:
 	git checkout -b develop
+	git checkout master :- to go into the master branch again
