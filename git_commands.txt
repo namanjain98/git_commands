@@ -40,7 +40,9 @@ git commands:
 	git log --since=2.days/weeks/months/years :-  sees all the commits for last two days
 	git log --pretty=format:%h--%n                                (see git formats from this website https://git-scm.com/docs/pretty-formats)
 	git commit --amend :-It will open the vim editor and you can merge your message with the old commit
-	git checkout -- git git_commands.txt :- it will restore the file specified for the last commit
+	git restore --staged git_commands.txt :- it will remove the file from the staged area
+	git restore --staged :- it will restore the last commit stage
+	git checkout -- git_commands.txt :- it will restore the file specified for the last commit
 	git checkout -f :- it will restore the last commit for the complete directory
 	git remote :- to go into the remote repository
 					like github is a website which hold control of remote repo
@@ -61,3 +63,9 @@ git commands:
 		tail ~/.ssh/id_rsa.pub
 	now we need to copy the key generated 
 	and paste it in the above file
+	
+	git config --global alias.st status :- this alias command is use to replace status command with st
+	
+	
+Create branching in github:
+	git checkout -b develop
