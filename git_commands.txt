@@ -14,7 +14,7 @@ git commands:
 	git log: to see all the commits done
 	gi add first.txt :- to add only the single file in git
 	rm -rf .git :- to remove all the git repository
-	git clone : to fetch new dir from internet 
+	git clone https://github.com/pandas-dev/pandas.git   mypanda : to fetch new dir from internet into fiolder mypanda 
 	ls: contains the list in folder you are in
 	touch abc.txt:- creates the file in the same directory
 	touch .gitignore:-   if we add any files in this file that it ignore all the files inside it and so we cannot see it in git status and it will not get commit
@@ -34,3 +34,9 @@ git commands:
 	git rm abc.txt :- to delete a file
 	git mv first.txt first_renamed.txt : to rename a file
 	git rm --cached db.accdb :- if my file is present from before and after some commit we put it in gitignore and if we do git add . than it will show that file in the staged but it must not show that is becaues it is in the cache so to rm it from cache we use this command
+	git log -p: To see all the commit with all the details like a line is removed and a line is added that means it is showing complete info
+	git log --stat: it shows the commits with limited info
+	git log --pretty=oneline/short/full :- shows all the commits in a single line,short,full
+	git log --since=2.days/weeks/months/years :-  sees all the commits for last two days
+	git log --pretty=format:%h--%n                                (see git formats from this website https://git-scm.com/docs/pretty-formats)
+	git commit --amend :-It will open the vim editor and you can merge your message with the old commit
