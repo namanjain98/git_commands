@@ -40,3 +40,24 @@ git commands:
 	git log --since=2.days/weeks/months/years :-  sees all the commits for last two days
 	git log --pretty=format:%h--%n                                (see git formats from this website https://git-scm.com/docs/pretty-formats)
 	git commit --amend :-It will open the vim editor and you can merge your message with the old commit
+	git checkout -- git git_commands.txt :- it will restore the file specified for the last commit
+	git checkout -f :- it will restore the last commit for the complete directory
+	git remote :- to go into the remote repository
+					like github is a website which hold control of remote repo
+	git remote add origin https://github.com/namanjain98/git_commands.git   : so we are adding it into github and giving it a name origin
+	git remote
+		we will se origin
+	git push -u origin master : it will not push anything since we donot have permission
+	-so go tosetting in your github account
+	-SSH and CPG keys
+		give title
+	-now we have to create ssh keys
+	so go to ssh keys github:
+		$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+		$ eval $(ssh-agent -s)
+		$ ssh-add ~/.ssh/id_rsa
+
+	add your ssh keys to github account
+		tail ~/.ssh/id_rsa.pub
+	now we need to copy the key generated 
+	and paste it in the above file
