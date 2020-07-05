@@ -31,3 +31,6 @@ git commands:
 	git commit -a -m "direct commit" := if we want to ignore the staging state and commit directly
 										but the files which are present before will only be commited and the new files created will not be commited
 										for new files yo 1st need to add them to git
+	git rm abc.txt :- to delete a file
+	git mv first.txt first_renamed.txt : to rename a file
+	git rm --cached db.accdb :- if my file is present from before and after some commit we put it in gitignore and if we do git add . than it will show that file in the staged but it must not show that is becaues it is in the cache so to rm it from cache we use this command
